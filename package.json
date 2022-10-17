@@ -1,0 +1,24 @@
+{
+  "name": "kysely-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "introspect": "kysely-codegen",
+    "start": "ts-node src/index.ts",
+    "test": "ts-node src/delete.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "kysely": "0.22.0",
+    "mysql2": "2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "18.8.2",
+    "kysely-codegen": "0.6.2",
+    "ts-node": "10.9.1"
+  }
+}
