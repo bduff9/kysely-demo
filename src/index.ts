@@ -5,8 +5,8 @@ import { processWeeklyMV } from "./weeklyMV";
 const main = async (): Promise<void> => {
   const week = 4;
 
-  await processOverallMV(week);
   await processWeeklyMV(week);
+  await processOverallMV(week, true);
   await processSurvivorMV(week);
 
   process.exit(0);
